@@ -313,7 +313,7 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
             {messages.map((msg, index) => (
               <div key={index} className={`message-container ${msg.sender}`}>
                 <div className={`message-bubble ${msg.sender}`}>
-                  <p className="sender">{msg.sender === 'user' ? 'You' : 'Gemini'}</p>
+                  <p className="sender">{msg.sender === 'user' ? 'You' : 'DocsX'}</p>
                   <p className="content">{msg.text}</p>
                 </div>
               </div>
